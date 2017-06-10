@@ -1,3 +1,50 @@
+/*
+font-family: 'Muli', sans-serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Sacramento', cursive;
+*/
 body {
-  font-family: serif;
+  font-family: 'Slabo 27px', serif;
+  background-color: #006994;
+}
+header {
+  margin: 5% 10%;
+  color: #cff1ff;
+}
+.message {
+  background-color: #008dc7;
+  color: #cff1ff;
+  padding: 5%;
+  margin: 5% 10% 2% 10%;
+  border-radius: 20px;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+}
+.quote {
+  font-size: 1.5em;
+  font-family: 'Muli', sans-serif;
+}
+.author {
+  font-style: italic;
+  font-size: 1em;
+}
+.thanks {
+  font-family: 'Sacramento', cursive;
+  padding: 1% .5% .5% .5%;
+}
+.thanks a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  padding: .5% 1%;
+  border-radius: 10px;
+  background-color: #cff1ff;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+footer {
+  margin: 2%;
 }

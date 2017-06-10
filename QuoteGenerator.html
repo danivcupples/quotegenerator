@@ -6,24 +6,24 @@
   <meta name="keywords" content="quote generator, quotes">
   <meta name="description" content="A quote generator">
   <meta name="viewport" content="width=device-width, initial scale=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"  type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Muli|Sacramento|Slabo+27px" rel="stylesheet">
   <link href="styles.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet"  type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="QuoteGenerator.js"> </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="container-fluid">
-    <div class="jumbotron text-center">
+    <!--<header class="text-center">
         <h1>Dani's Quote Generator</h1>
-    </div>
+    </header>-->
     <div class="row text-center">
-      <div class="col-lg-12 message">
-        <p>Your quote will appear here.</p>
+      <div class="col-lg-10 message">
+        <p>Just waiting for you to click "Get Quote".</p>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-lg-12">
+      <div class="col-lg-12" id="buttonArea">
         <button id="getQuote">Get Quote</button>
+        <a class='twitter-share-button' data-show-count='false' data-size='large'>Tweet</a><script async src='//platform.twitter.com/widgets.js' charset='utf-8'></script>
       </div>
     </div>
   </div>
@@ -31,10 +31,12 @@
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-lg-12">
-          <p>Made, with coffee, by Dani V Cupples</p>
+          <h5>Made, with coffee, by Dani V Cupples.</h5>
         </div>
       </div>
     </div>
   </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="QuoteGenerator.js"></script>
 </body>
 </html>
