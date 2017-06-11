@@ -39,6 +39,7 @@ header {
 
 button {
   padding: .5% 1%;
+  margin: .5%;
   border-radius: 10px;
   background-color: #cff1ff;
   font-family: 'Muli', sans-serif;
